@@ -1,0 +1,27 @@
+{
+  "name": "html-to-vdom",
+  "version": "0.7.0",
+  "description": "Converts html into a vtree",
+  "dependencies": {
+    "ent": "https://github.com/substack/node-ent.git#2.2.0",
+    "htmlparser2": "3.8.3"
+  },
+  "main": [
+    "index.js"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "authors": [
+    "Tim Beyer"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
